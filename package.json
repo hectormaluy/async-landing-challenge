@@ -1,0 +1,27 @@
+{
+  "name": "async-landing-challenge",
+  "version": "1.0.0",
+  "description": "El desafío es hacer una landing page con el uso de una API.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectormaluy/async-landing-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectormaluy/async-landing-challenge/issues"
+  },
+  "homepage": "https://github.com/hectormaluy/async-landing-challenge#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
