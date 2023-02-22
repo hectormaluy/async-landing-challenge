@@ -47,20 +47,26 @@ body {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-container figure {
-  margin-right: 0;
-  margin-left: 180px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  width: 50%;
+  padding-left: 150px;
 }
 
 .main-container figure img {
-  height: 400px;
+  height: 220px;
   max-width: auto;
+  object-fit: cover;
 }
 
 .article-container {
   font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
 }
 
 .article-container h1 {
@@ -70,6 +76,33 @@ body {
 
 .article-container h1 span {
   color: rgb(47, 138, 228);
+}
+
+.video-container {
+  width: 100%;
+}
+
+.video-container h2 {
+  text-align: center;
+}
+
+#videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#videos figure {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  width: 300px;
+  margin: 10px;
+}
+
+#videos img {
+  width: 300px;
+  height: auto;
 }
 
 @media (max-width: 950px) {

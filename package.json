@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hectormaluy/async-landing-challenge.git"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hectormaluy/async-landing-challenge/issues"
   },
-  "homepage": "https://github.com/hectormaluy/async-landing-challenge#readme"
+  "homepage": "https://github.com/hectormaluy/async-landing-challenge#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
